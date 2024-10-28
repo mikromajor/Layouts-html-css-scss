@@ -1,0 +1,5 @@
+.header {
+  &__logo {
+    margin: 24px auto 30px;
+  }
+}

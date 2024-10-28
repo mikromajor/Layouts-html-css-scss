@@ -1,6 +1,6 @@
 /* nunito-regular - cyrillic_latin */
 @font-face {
-  /*font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: "Nunito";
   font-style: normal;
   font-weight: 400;
@@ -12,7 +12,7 @@
 }
 /* nunito-600 - cyrillic_latin */
 @font-face {
-  /*font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
@@ -24,7 +24,7 @@
 }
 /* nunito-800 - cyrillic_latin */
 @font-face {
-  /*font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: "Nunito";
   font-style: normal;
   font-weight: 800;

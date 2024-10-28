@@ -1,3 +1,63 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit; /* вычисление габаритов наследуется у родительского элемента*/
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+fieldset {
+  margin: 0;
+}
+fieldset {
+  padding: 0;
+}
+.vissualy-hidden {
+  position: fixed;
+  transform: scale(0); /*скрытие контента*/
+}
+
+img,
+svg {
+  max-width: 100vw;
+  max-height: 100vw;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none; /*убрать маркеры списка*/
+  padding: 0; /*убрать отступы внутри списка*/
+  margin: 0; /*убрать отступы между пунктами списка*/
+}
+
+html {
+  box-sizing: border-box; /*вычисление габаритов с учетом бордеров*/
+  position: relative; /*для позиционирования элементов*/
+  overflow-x: hidden; /*запрет скролла по горизонтали*/
+  --container: 300px;
+  --padding-container: 10px;
+}
+
 body {
-  font-family: Nunito, sans-serif;
+  font-family: Nunito, /*sans-serif*/;
+  min-width: 320px;
+  max-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: calc(
+    var(--container) + 2 * var(--padding-container)
+  );
+  padding: 0 var(--padding-container);
+  margin: 0 auto; /*выравнивание контейнера по центру экрана*/
 }

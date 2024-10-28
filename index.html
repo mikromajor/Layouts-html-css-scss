@@ -35,6 +35,27 @@
       rel="manifest"
       href="./images/favicon/site.webmanifest"
     />
+    <link
+      rel="preload"
+      href="./fonts/nunito-v26-cyrillic_latin-600.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./fonts/nunito-v26-cyrillic_latin-800.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./fonts/nunito-v26-cyrillic_latin-regular.ttf"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
@@ -47,12 +68,15 @@
           aria-label="логотип"
         />
       </svg>
-      <div class="header__text_container">
-        <h1>
-          <span>Только самые</span>
-          <span>сочные бургеры</span>
-        </h1>
-        <p>Бесплатная доставка от 599₽</p>
+      <div class="container">
+        <div class="header__text_container">
+          <h1>
+            <span>Только самые</span>
+            <span>сочные бургеры</span>
+          </h1>
+          <p>Бесплатная доставка от 599₽</p>
+        </div>
+        <img src="./images/g10.png" alt="burger image" />
       </div>
     </header>
   </body>
