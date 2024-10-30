@@ -25,6 +25,8 @@ fieldset {
 
 img,
 svg {
+  display: block; /*I don't check it обнуляет подчеркивание or line-height: 0 or font-size:0*/
+
   max-width: 100vw;
   max-height: 100vw;
   height: auto;
