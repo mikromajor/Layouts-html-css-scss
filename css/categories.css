@@ -1,0 +1,41 @@
+.categories {
+  padding: 0 10px;
+}
+.categories__list {
+  display: flex;
+  overflow-x: auto;
+}
+.categories__item {
+}
+.categories__button {
+  min-width: 100px;
+  border-radius: 50px;
+  border-width: 0;
+
+  background-color: #ffab08;
+}
+.categories__button--active {
+}
+.button__image {
+  width: 24px;
+  height: 24px;
+  margin: 8px 8px 8px 14px;
+}
+.button__image--burger {
+}
+.button__image--snake {
+}
+.button__image--hot_dog {
+}
+.button__image--combo {
+}
+.button__image--shaurma {
+}
+.button__image--pizza {
+}
+.button__image--bok {
+}
+.button__image--desert {
+}
+.button__image--sauce {
+}
