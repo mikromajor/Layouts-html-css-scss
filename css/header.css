@@ -3,26 +3,25 @@
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 610px;
-  padding: 24px 10px 30px;
+  padding: 21px 10px 30px;
   color: #fff;
 }
 .header__logo {
-  width: 150px;
-  margin: 0 auto 30px;
+  width: 155px;
+  padding-left: 3px;
+  margin: 0 auto 21px;
 }
 .header__content {
   min-height: 345px;
   align-items: center;
 }
-.header__text_content {
-}
+
 .header__title {
   font-weight: 800;
   font-size: 30px;
   line-height: 120%;
   margin: 0 auto 16px;
   text-align: center;
-  max-width: 250px;
 }
 .header__title--red {
   color: #ff5c00;
@@ -49,6 +48,11 @@
     background-size: 2540px;
     padding-bottom: 44px;
   }
+  .header__logo {
+    width: 156px;
+    padding-left: 3px;
+    margin: 0 auto 21px;
+  }
   .header__content {
     display: flex;
     flex-direction: row-reverse;
@@ -58,12 +62,16 @@
   }
   .header__text_content {
     padding-bottom: 0;
-    text-align: left;
+    max-width: 325px;
+    margin-left: 10px;
   }
   .header__title {
-    margin-top: 27px;
+    font-size: 36px;
+    margin: 27px 0 26px;
+    text-align: left;
   }
   .header__info {
+    text-align: left;
   }
   .header__burger_container {
     margin: 0;
