@@ -42,6 +42,9 @@
 }
 .header__burger_immage {
   background-image: url("../images/g10.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 176px;
   height: 203px;
   margin: 18px auto 8px;
@@ -86,21 +89,19 @@
     min-height: 229px;
   }
   .header__text_content {
-    padding-top: 10px;
-    margin: 27px 10px 74px;
+    margin: 25px 0 74px 10px;
   }
   .header__title {
     font-size: 36px;
-    margin: 27px 0 26px;
+    margin: 0 0 26px 0;
   }
   .header__burger_container {
-    width: 326px;
-    height: 326px;
-  }
-  .header__burger_immage {
     width: 227px;
     height: 229px;
-    margin: 18px auto 7px;
+  }
+  .header__burger_immage {
+    width: 176px;
+    height: 203px;
   }
 }
 
@@ -111,12 +112,13 @@
   }
   .header__title {
     font-size: 50px;
-    margin: 36px 0 55px;
+    margin: 0 auto;
   }
   .header__content {
     max-width: 764px;
   }
   .header__text_content {
+    margin: 0;
     margin-left: 1px;
     max-width: 437px;
   }
