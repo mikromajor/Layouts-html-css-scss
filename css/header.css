@@ -13,6 +13,8 @@
 }
 .header__content {
   min-height: 345px;
+  max-width: 100vw;
+  padding: 0 10px;
   align-items: center;
 }
 .header__text_content {
@@ -85,6 +87,9 @@
   }
 }
 @media (min-width: 768px) {
+  .header__logo {
+    padding-left: 3px;
+  }
   .header__content {
     min-height: 229px;
   }
@@ -110,41 +115,43 @@
     background-size: 2880px;
     padding-bottom: 63px;
   }
-  .header__title {
-    font-size: 50px;
-    margin: 0 auto;
-  }
+
   .header__content {
-    max-width: 764px;
+    min-width: 764px;
+    height: 326px;
   }
   .header__text_content {
-    margin: 0;
-    margin-left: 1px;
-    max-width: 437px;
+    margin: 46px 0 86px 1px;
+    min-width: 437px;
+    height: 194px;
+  }
+  .header__title {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 55px;
   }
   .header__info {
     font-size: 16px;
   }
+  .header__burger_container {
+    width: 326px;
+    height: 326px;
+  }
   .header__burger_immage {
     width: 253px;
     height: 290px;
-    margin: 27px auto 9px;
+    margin: 26px 36px 9px;
   }
 }
 @media (min-width: 1440px) {
-  .header__text_content {
-    margin-left: 20px;
-  }
   .header__content {
-    max-width: 784px;
+    width: 784px;
     min-height: 326px;
   }
   .header__text_content {
-    padding: 10px 0 0;
-    margin: 0;
-    margin-left: 21px;
+    margin-left: 20px;
+    padding-left: 10px;
   }
-
   .header__burger_immage {
     background-image: url("../images/g10_screen1440.png");
     width: 253px;
