@@ -3,7 +3,8 @@
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 610px;
-  padding: 21px 10px 30px;
+  padding-top: 21px;
+  padding-bottom: 30px;
   color: #fff;
 }
 .header__logo {
@@ -44,6 +45,7 @@
 }
 .header__burger_immage {
   background-image: url("../images/g10.png");
+  /* use bgi instead img because different media use defferent imgs*/
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

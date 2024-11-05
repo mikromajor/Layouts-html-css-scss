@@ -1,5 +1,5 @@
 .categories {
-  padding: 0 10px;
+  margin: 0 auto;
 }
 .categories__list {
   display: flex;
@@ -8,34 +8,47 @@
 .categories__item {
 }
 .categories__button {
-  min-width: 100px;
   border-radius: 50px;
   border-width: 0;
-
-  background-color: #ffab08;
+  background-color: #fff;
+  min-width: max-content;
+  padding-left: 28px;
 }
 .categories__button--active {
+  background-color: #ffab08;
 }
 .button__image {
   width: 24px;
   height: 24px;
   margin: 8px 8px 8px 14px;
+  /* background-position: left center; */
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .button__image--burger {
+  background-image: url("../images/categories-icons/burger.png");
 }
 .button__image--snake {
+  background-image: url("../images/categories-icons/snake.png");
 }
 .button__image--hot_dog {
+  background-image: url("../images/categories-icons/hot-dog.png");
 }
 .button__image--combo {
+  background-image: url("../images/categories-icons/combo.png");
 }
 .button__image--shaurma {
+  background-image: url("../images/categories-icons/shaurma.png");
 }
 .button__image--pizza {
+  background-image: url("../images/categories-icons/pizza.png");
 }
 .button__image--bok {
+  background-image: url("../images/categories-icons/bok.png");
 }
 .button__image--desert {
+  background-image: url("../images/categories-icons/desert.png");
 }
 .button__image--sauce {
+  background-image: url("../images/categories-icons/sauce.png");
 }

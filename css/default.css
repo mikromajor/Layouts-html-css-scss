@@ -65,3 +65,7 @@ body {
   padding: 0 var(--padding-container);
   margin: 0 auto; /*выравнивание контейнера по центру экрана*/
 }
+.header,
+.main {
+  padding: var(--padding-container);
+}
