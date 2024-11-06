@@ -1,18 +1,22 @@
 .categories {
-  margin: 0 auto;
+  margin: 40px auto 50px;
 }
 .categories__list {
   display: flex;
   overflow-x: auto;
+  column-gap: 8px;
 }
 .categories__item {
 }
 .categories__button {
+  display: flex;
+  align-items: center;
   border-radius: 50px;
   border-width: 0;
   background-color: #fff;
   min-width: max-content;
-  padding-left: 28px;
+  padding: 8px 14px 8px 46px;
+  font-size: 16px;
 }
 .categories__button--active {
   background-color: #ffab08;
@@ -20,10 +24,9 @@
 .button__image {
   width: 24px;
   height: 24px;
-  margin: 8px 8px 8px 14px;
-  /* background-position: left center; */
   background-size: contain;
   background-repeat: no-repeat;
+  background-position-x: 14px;
 }
 .button__image--burger {
   background-image: url("../images/categories-icons/burger.png");
